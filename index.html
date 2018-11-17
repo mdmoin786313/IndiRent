@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <script src="main.js"></script>
+</head>
+<body>
+<div class="back1">
+  <div class="header">
+    <a href="">IndiRent.com</a>
+    <a href="">Rent!</a>
+    <a href="">Login</a>
+    <a href="">Buy A Vehicle</a>
+    <a href="">About</a>
+    <a href="">Home</a>
+  </div>
+  <div class="back1_content">
+    <h1>Choose Your Ride Now!</h1>
+    <h3>Get Vehicles for Rent at the Cheapest Prices Ever.</h3>
+    <a href="" class="rent_v">Rent Now!</a>
+  </div>
+</div>
+<div class="back2">
+  <div class="back2_content">
+    <div>
+      <h1>Imported Vehicles</h1>
+      <h2>Hire Mercedes, Audi, BMW, Ducati, Duke and so on at <br>Much Cheaper Rate than others.</h2>
+      <a href="">Learn More &rarr;</a>
+    </div>
+  </div>
+  <img src="images/back2_1.jpg" class="back2_img">
+  <img src="images/bike.jpg" class="back2_img">
+  <div class="back2_content1">
+    <div>
+      <h1>Your Money And Time</h1>
+      <h2>Rent Vehicles by your choice of Time, Money and <br>Comfort anytime with us!</h2>
+      <a href="">Learn More &rarr;</a>
+    </div>
+  </div>
+  <div class="back2_content">
+    <div>
+      <h1>Buy Cars and Bikes!</h1>
+      <h2>Buy Imported Cars and Bikes of your Choice at Much<br> Less Cost than the Market.</h2>
+      <a href="">Learn More &rarr;</a>
+    </div>
+  </div>
+  <img src="images/back3_1.jpg" class="back2_img">
+</div>
+<div class="back3">
+  <div class="outer_div">
+    <div class="img1">
+      <h3>Mercedez Benz</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img2">
+      <h3>Audi</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img3">
+      <h3>Jaguar</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img4">
+      <h3>BMW</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img5">
+      <h3>Ford</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img6">
+      <h3>Aston Martin</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img7">
+      <h3>Zenvo</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+  <div class="outer_div">
+    <div class="img8">
+      <h3>Bugatti</h3>
+      <a href="">Rent Now! &rarr;</a>
+    </div>
+  </div>
+</div>
+<div class="back4">
+  <div class="back4_1">
+    <img src="images/billgates.jpg">
+    <h1>"IndiRent is the Beginning of New Era of Cars in India for Common People."<br><span style="float:right;">-Bill Gates</span></h1>
+  </div>
+  <div class="back4_1">
+    <img src="images/jeffbezos.jpeg">
+    <h1>"IndiRent has Introduced the people not only Imported Vehicles at cheaper price, but also Hope."<br><span style="float:right;">-Jeff Bezos</span></h1>
+  </div>
+  <div class="back4_1">
+    <img src="images/donaldtrump.jpg">
+    <h1>"Vehicles are the Base of a Nation. So is Indirent."<br><span style="float:right;">-Donald Trump</span></h1>
+  </div>
+  <div class="back4_1">
+    <img src="images/larry.jpg">
+    <h1>"IndiRent is like a never-seen-before Company which earned $1 Billion in a Year."<br><span style="float:right;">-Larry Ellison</span></h1>
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("back4_1");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 5000);
+}
+</script>
+</div>
+<div class="footer">
+  <div class="footer_1">
+    <h1 style="color:greenyellow">INDIRENT</h1>
+    <p>We Create Possibilities For The Connected World.</p>
+    <h4 style="color:greenyellow"><b>Be Bold</b></h4>
+  </div>
+  <div class="footer_1">
+    <h4 style="color:greenyellow">Explore</h4>
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Capabilities</a>
+    <a href="">Career</a>
+  </div>
+  <div class="footer_1">
+    <h4 style="color:greenyellow">Visit</h4>
+    <p>Indirent Enterprises, California, 34 Tesla, Site 100 Irvine, CA, USA 92618.</p>
+    <h4 style="color:greenyellow">Business Enquiry</h4>
+    <p>indirent@gmail.com<br>9082170982</p>
+  </div>
+  <div class="footer_1">
+    <h4 style="color:greenyellow">Follow</h4>
+    <a href="">Instagram</a>
+    <a href="">Twitter</a>
+    <a href="">Facebook</a>
+    <a href="">LinkedIn</a>
+  </div>
+  <div class="footer_1">
+    <h4 style="color:greenyellow">Legal</h4>
+    <a href="">Terms</a>
+    <a href="">Privacy</a>
+  </div>
+  <p class="copyright">&copy; 2018 Indirent. All Rights Reserved.</p>
+</div>
+</body>
+</html>
